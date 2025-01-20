@@ -5,12 +5,12 @@ import Todos from './components/Todos'
 const App = () => {
   const [todos, setTodos] = useState([
     {id: 1,
-      title: "Ram",
-      description: "My God"
+      title: "Excersice",
+      description: "It's a good Habit for health"
     },
     {id: 2,
-      title: "Krishna",
-      description: "Also My God"
+      title: "Walking",
+      description: "It's reduce a unnecessary fat from body"
     }
   ])
   const [id, setId] = useState("");
